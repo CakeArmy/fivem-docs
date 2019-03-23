@@ -59,6 +59,11 @@ citizen\clr2\lib\mono\4.5\
 ```
 Once you're in there, copy the `CitizenFX.Core.dll` file and paste it in your C# server project folder.
 
+If you're on linux the proper file directory is
+
+```ini
+alpine/opt/cfx-server-clr2/lib/mono/4.5/
+```
 Now, go back into Visual Studio and go to your project in the Solution Explorer on the right. Right click on your (server) project, and click "Add > Reference".
 The same window shown in the above section should appear.
 
